@@ -1,0 +1,21 @@
+The "philosophers" project is a simulation of a group of philosophers sitting around a table,
+where each philosopher can either be thinking or eating. The philosophers take turns eating and 
+thinking, and they must use two forks, one on their left and one on their right, to eat. The simulation
+is meant to demonstrate a problem called the "dining philosophers problem," which is a classic
+problem in the field of concurrent and parallel computing. The problem is to design a protocol 
+that allows multiple philosophers to eat without any of them starving, i.e. without any of them
+waiting indefinitely to acquire the forks they need.
+The project uses a number of threads to simulate the philosophers.
+Each philosopher is represented by a thread, and each thread is responsible 
+for the behavior of its corresponding philosopher. The threads communicate 
+with each other using mutexes, which are synchronization objects that allow
+threads to lock and unlock shared resources, such as the forks. The project 
+uses the pthread library for creating and managing threads, and it uses the 
+pthread_mutex_t data type for creating mutexes.
+In this project, the main function starts the program by initializing the 
+global variables and creating the threads, and then it waits for the threads
+to finish. Each thread starts by initializing its local variables, and then it 
+enters an infinite loop where it alternately thinks and eats. Before eating, a
+philosopher must acquire the forks, and before thinking, a philosopher must release 
+the forks. The threads use the pthread_mutex_lock and pthread_mutex_unlock functions
+to acquire and release the forks, respectively.
