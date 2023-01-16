@@ -102,3 +102,14 @@ It takes in one argument, a pointer to a struct of type t_philo (philo), which c
 The function starts by setting the status of the philosopher to 'THINKING' and releases the mutexes held by the philosopher on their left and right forks, allowing other philosophers to take the forks.
 It also prints a message to the console indicating that the philosopher is done eating and has put down their forks.
 This function is called by the done_eat function, it's used for simulating the action of a philosopher putting down their forks after finishing eating.Please let me know if you have any more question or need more clarification on this function.
+
+
+Unix Threads in C
+----------------------------------------------------------------------------------------------------------------
+
+* Short introduction to threads (pthreads)
+https://www.youtube.com/watch?v=d9s_d28yJq0&list=PLfqABt5AS4FmuQf70psXrsMLEDQXNkLq2
+* What is a mutex in C? (pthread_mutex)
+https://www.youtube.com/watch?v=oq29KUy29iQ&list=PLfqABt5AS4FmuQf70psXrsMLEDQXNkLq2&index=4
+* Unix Threads in C
+https://www.youtube.com/playlist?list=PLfqABt5AS4FmuQf70psXrsMLEDQXNkLq2
