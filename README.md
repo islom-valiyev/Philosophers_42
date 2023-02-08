@@ -2,7 +2,7 @@ Project Description:
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Here are the things you need to know if you want to succeed this assignment:
 • One or more philosophers sit at a round table.
-There is a large bowl of spaghetti in the middle of the table.
+•There is a large bowl of spaghetti in the middle of the table.
 
 • The philosophers alternatively eat, think, or sleep.
 While they are eating, they are not thinking nor sleeping;
