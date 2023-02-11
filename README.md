@@ -80,7 +80,7 @@ This function checks that the arguments passed to the program are within the exp
 int start is a variable that represents the start time of the simulation, it's used to check the global time of the simulation
 void *pthread is a pointer to a pthread, it's used to represent a thread created using the pthread library.
 
-* void *pthread is a pointer to a pthread, it's used to represent a thread created using the pthread library. The pthread library provides a way to create and manage threads in C. The pthread_create function is used to create a new thread and pass it a function to run, along with any arguments that need to be passed to the function. The pthread_join function is used to wait for a specific thread to finish executing.
+* void *pthread is a pointer to a pthread, it's used to represent a thread created using the pthread library. The pthread library provides a way to create and manage threads in C. The pthread_create function is used to create a new thread and pass it a function to run, along with any arguments that need to be passed to the function. The pthread_join function  is used to wait for a specific thread to finish executing.
 
 * int start is a variable that represents the start time of the simulation, it's used to check the global time of the simulation. It's used to keep track of how much time has passed since the start of the simulation, this is used to check if the philosophers have exceeded the time to die.
 int ft_isdigit(int num): This function is used to check if a character is a digit. It takes in one argument, an integer representing the ASCII code of a character, and returns 1 if the character is a digit (i.e. its ASCII code is between '0' and '9'), and 0 otherwise.
