@@ -14,7 +14,7 @@ and, of course, while sleeping, they are not eating nor thinking.
 • Because serving and eating spaghetti with only one fork is very inconvenient, a
 philosopher takes their right and their left forks to eat, one in each hand.
 
-• When a philosopher has finished eating, they put their forks back on the table and
+• When a philosopher has finished eating,  they put their forks back on the table and
 start sleeping. Once awake, they start thinking again. The simulation stops when
 a philosopher dies of starvation .
 
