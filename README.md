@@ -20,7 +20,7 @@ a philosopher dies of starvation .
 
 • Every philosopher needs to eat and should never starve.
 
-• Philosophers don’t speak with each other.
+• Philosophers don’t speak with each other. 
 
 • Philosophers don’t know if another philosopher is about to die.
 
